@@ -1,3 +1,10 @@
+---
+title: hexo安装及使用
+date: 2020-02-18 20:20:02
+categories: "hexo"
+tags: ["hexo"]
+---
+
 # hexo 笔记搭建
 
 ## 环境安装
@@ -27,7 +34,7 @@ git clone https://github.com/HeskeyBaozi/hexo-theme-lite themes/lite
 ```
 配置主题
 
-在 `_config.yml` 中找到 `theme` 配置项，将其设置为 `lite`：
+在 `_config.yml` 中找到 `theme` 配置项，将其设置为 `next`：
 
 ```javascript
 theme: lite
@@ -89,8 +96,8 @@ npm install hexo-deployer-git --save
 ```javascript
 deploy:
   type: 'git'
-  repo: https://github.com/shealain/hexo-notes.git
-  branch: [gh-pages]
+  repo: https://github.com/shealain/shealain.github.io.git
+  branch: [master]
 ```
 
 执行部署命令
