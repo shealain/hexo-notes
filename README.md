@@ -8,6 +8,15 @@ my hexo-notes
 https://github.com/shealain/hexo-notes.git
 ```
 
+运行命令
+```js
+git add .
+
+git commit -m '注释'
+
+git push origin master
+```
+
 
 ## 部署位置
 
@@ -21,5 +30,6 @@ deploy:
 运行部署命令
 
 ```js
+npm run build
 npm run deploy
 ```
