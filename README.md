@@ -1,6 +1,8 @@
 # hexo-notes
 my hexo-notes
 
+# 启动
+npm run server
 
 ## 源码位置
 
